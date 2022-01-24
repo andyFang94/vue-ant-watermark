@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import App from './App.vue';
-import WaterMark from './../packages/index';
+import WaterMark from './../lib/index';
 
 Vue.use(WaterMark);
 Vue.config.productionTip = false;

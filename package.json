@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "private": false,
   "description": "vue 水印",
-  "main": "lib/vwatermark.umd.min.js",
+  "main": "lib/index.js",
   "keyword": [
     "watermark",
     "vue",
@@ -14,14 +14,11 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name vwatermark --dest lib packages/index.js",
-    "release": "npm run lib && npm publish --access public"
-  },
-  "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "release": "npm publish --access public"
   },
   "devDependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",

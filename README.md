@@ -1,24 +1,24 @@
 # vue-ant-watermark
 
 ## Project setup
+
 ```
-npm install
+npm install v-antd-watermark
 ```
 
-### Compiles and hot-reloads for development
+### main.js
+
 ```
-npm run serve
+import WaterMark from 'v-antd-watermark';
+Vue.use(WaterMark);
+
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### use
 
-### Lints and fixes files
 ```
-npm run lint
+<water-mark :content="'6666666'">
+  <img alt="Vue logo" src="./assets/logo.png" />
+  <HelloWorld msg="Welcome to Your Vue.js App" />
+</water-mark>
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

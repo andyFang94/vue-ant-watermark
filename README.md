@@ -14,7 +14,7 @@ Vue.use(WaterMark);
 
 ```
 
-### use
+### how to use
 
 ```
 <water-mark :content="'6666666'">
